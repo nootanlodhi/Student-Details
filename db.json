@@ -1,0 +1,38 @@
+{
+  "students": [
+    {
+      "name": "Nootan",
+      "studentclass": "6",
+      "score": "50",
+      "result": "passed",
+      "grade": "Average",
+      "username": "1",
+      "email": "1",
+      "id": 12
+    },
+    {
+      "name": "Nootan Lodhi",
+      "studentclass": "8",
+      "score": "80",
+      "result": "passed",
+      "grade": "Average",
+      "username": "1",
+      "email": "1",
+      "id": 20
+    },
+    {
+      "name": "neeraj",
+      "studentclass": "6",
+      "score": "60",
+      "result": "passed",
+      "grade": "Average",
+      "id": 23
+    },
+    {
+      "name": "Nootan",
+      "studentclass": "4",
+      "score": "66",
+      "id": 26
+    }
+  ]
+}
