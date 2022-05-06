@@ -28,7 +28,7 @@ const DeleteForm = () => {
 
    await axios.delete(`http://localhost:3005/students/${id}`,deleteStudent);
   //  console.log('http://localhost:3005/students');
-   navigate('./student')
+   navigate('/student')
  }
 
  const loadStudent=async()=>{
@@ -69,7 +69,9 @@ const DeleteForm = () => {
               </NavLink>
             </button>
             <button className="confirm-btn remove-btn" >
+              
               Remove
+              
             </button>
             
           </div>

@@ -46,7 +46,7 @@ const EditForm = () => {
  const fun=async()=>{
   await axios.put(`http://localhost:3005/students/${id}`,addStudent);
   //  console.log('http://localhost:3005/students');
-   navigate('./student')
+   navigate('/student')
  }
 
  useEffect(()=>{

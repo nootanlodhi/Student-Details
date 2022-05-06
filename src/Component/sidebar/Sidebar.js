@@ -20,7 +20,7 @@ const Sidebar = () => {
            <div className='second-first-div'>
            
                <div>
-               <NavLink to='/dashboard' className='active-link items-table' style={({isActive})=>{
+               <NavLink to='/' className='active-link items-table' style={({isActive})=>{
                  return{
                    backgroundColor: isActive ? 'rgb(204, 233, 242)' : '',
                    color: isActive ? 'rgb(0, 195, 255)':''

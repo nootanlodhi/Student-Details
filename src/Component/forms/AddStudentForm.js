@@ -39,7 +39,7 @@ const AddStudentForm = () => {
 
  const fun=async()=>{
   await axios.post('http://localhost:3005/students',addStudent);
-   navigate('./student');
+   navigate('/student');
  }
 
  useEffect(()=>{

@@ -1,6 +1,6 @@
 import React from 'react'
 import { IoIosAdd } from "react-icons/io";
-import { BrowserRouter, NavLink } from 'react-router-dom';
+import { BrowserRouter, NavLink, Outlet } from 'react-router-dom';
 import AddStudentForm from '../forms/AddStudentForm';
 import StudentPageRecord from '../forms/StudentPageRecord';
 
@@ -20,6 +20,7 @@ const StudentPage = () => {
       </div>
       <div className="second-div">
         <StudentPageRecord/>
+        <Outlet/>
       </div>
       <div className="third-div"></div>
     </div>
